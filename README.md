@@ -1,0 +1,8 @@
+# Run Server
+
+python3 main.py
+
+# Run Client
+
+python3 client.py <host> <port> <file_or_folder_path>
+python3 client.py 127.0.0.1 51234 test-workload/client_1.txt
