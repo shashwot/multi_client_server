@@ -12,5 +12,7 @@ python3 client.py 127.0.0.1 51234 test-workload/client_1.txt
 
 #### Folder
 python3 client.py 127.0.0.1 51234 test-workload/
-  OR
+
+OR
+
 for i in {1..10}; do python3 client.py localhost 51234 test-workload/client_$i.txt &; done
